@@ -1,0 +1,128 @@
+/*$celeste:#569ec6;
+$azul:#25526b;
+$azul_claro:#698fa4;*/
+/* line 17, ../scss/estilos.scss */
+body {
+  padding-top: 50px;
+  font-family: 'Ubuntu',Helvetica,Arial,sans-serif !important;
+  background: #16a085;
+}
+
+/* line 23, ../scss/estilos.scss */
+.navbar {
+  background: #34495e;
+  color: white;
+}
+
+/* line 28, ../scss/estilos.scss */
+.navbar-inverse .navbar-brand {
+  color: white !important;
+}
+
+/* line 32, ../scss/estilos.scss */
+.navbar-nav > li > a.active:focus, .navbar-nav > li > a.active:hover {
+  background: #16a085;
+  color: #34495e !important;
+}
+
+/* line 37, ../scss/estilos.scss */
+.navbar-brand {
+  font-size: 22px;
+}
+
+/* line 41, ../scss/estilos.scss */
+.img-responsive {
+  max-height: 150px;
+  margin: 0 auto;
+}
+
+/* line 46, ../scss/estilos.scss */
+.img-thumbnail {
+  border: 4px solid #16a085;
+  padding: 0;
+}
+
+/* line 51, ../scss/estilos.scss */
+.row {
+  padding: 10px;
+}
+
+/* line 55, ../scss/estilos.scss */
+mark {
+  border-radius: 4px;
+}
+
+/* line 59, ../scss/estilos.scss */
+.active {
+  background: #16a085;
+  color: white !important;
+}
+
+/* line 64, ../scss/estilos.scss */
+.azul_marino {
+  background: #34495e;
+  color: white;
+}
+
+/* line 69, ../scss/estilos.scss */
+.blanco {
+  background: white;
+  color: #34495e;
+}
+
+/* line 74, ../scss/estilos.scss */
+.celeste {
+  background: #4a9ecd;
+  color: white;
+}
+
+/* line 79, ../scss/estilos.scss */
+.azul {
+  background: #0f5379;
+  color: white;
+}
+
+/* line 84, ../scss/estilos.scss */
+.azul_claro {
+  background: #64889d;
+  color: white;
+}
+
+/* line 89, ../scss/estilos.scss */
+.turquesa {
+  background: #16a085;
+  color: white;
+}
+
+/* line 94, ../scss/estilos.scss */
+.color_turquesa {
+  color: #16a085;
+}
+
+/* line 98, ../scss/estilos.scss */
+.color_azul_marino {
+  color: #34495e;
+}
+
+/* line 102, ../scss/estilos.scss */
+.noview {
+  display: none;
+}
+
+/* line 106, ../scss/estilos.scss */
+aside {
+  background: #4a9ecd;
+  color: white;
+}
+
+/* line 111, ../scss/estilos.scss */
+footer {
+  background: #16a085;
+  color: white;
+  border-top: 4px solid #34495e;
+}
+
+/* line 117, ../scss/estilos.scss */
+header {
+  border-bottom: 4px solid #16a085;
+}

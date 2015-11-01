@@ -1,0 +1,119 @@
+$azul_marino:#34495e;
+$blanco:#fff;
+$blanco_gris:#f2f2f2;
+$negro:#000;
+$turquesa:#16a085;
+$rojo:#c0392b;
+$gris:#9D9D9D;
+
+$celeste:#4a9ecd;
+$azul:#0f5379;
+$azul_claro:#64889d;
+
+/*$celeste:#569ec6;
+$azul:#25526b;
+$azul_claro:#698fa4;*/
+
+body{
+  padding-top: 50px;
+  font-family: 'Ubuntu',Helvetica,Arial,sans-serif !important;
+  background: $turquesa;
+}
+
+.navbar{
+  background: $azul_marino;
+  color: $blanco;
+}
+
+.navbar-inverse .navbar-brand{
+    color: $blanco !important;
+}
+
+.navbar-nav > li > a.active:focus, .navbar-nav > li > a.active:hover{
+    background: $turquesa;
+    color: $azul_marino!important;
+}
+
+.navbar-brand{
+    font-size: 22px;
+}
+
+.img-responsive{
+    max-height: 150px;
+    margin: 0 auto;
+}
+
+.img-thumbnail{
+    border:4px solid $turquesa;
+    padding: 0;
+}
+
+.row{
+    padding: 10px;
+}
+
+mark{
+    border-radius: 4px;
+}
+
+.active{
+    background: $turquesa;
+    color: $blanco!important;
+}
+
+.azul_marino{
+  background:$azul_marino;
+  color: $blanco;
+}
+
+.blanco{
+    background: $blanco;
+    color:$azul_marino;
+}
+
+.celeste{
+    background: $celeste;
+    color: $blanco;
+}
+
+.azul{
+    background: $azul;
+    color: $blanco;
+}
+
+.azul_claro{
+    background: $azul_claro;
+    color:$blanco;
+}
+
+.turquesa{
+    background: $turquesa;
+    color:$blanco;
+}
+
+.color_turquesa{
+    color:$turquesa;
+}
+
+.color_azul_marino{
+    color: $azul_marino;
+}
+
+.noview{
+    display: none;
+}
+
+aside{
+  background: $celeste;
+  color: $blanco;
+}
+
+footer{
+  background: $turquesa;
+  color: $blanco;
+  border-top: 4px solid $azul_marino;
+}
+
+header{
+  border-bottom: 4px solid $turquesa;
+}
