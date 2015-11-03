@@ -86,7 +86,7 @@ a:hover {
 
 /* line 77, ../scss/estilos.scss */
 .gris {
-  background: #f5f5f5;
+  background: #eeeeee;
 }
 
 /* line 82, ../scss/estilos.scss */
@@ -120,4 +120,31 @@ footer {
 /* line 105, ../scss/estilos.scss */
 header {
   border-bottom: 4px solid #009ea8;
+}
+
+/*SOCIAL ICONS*/
+/* line 110, ../scss/estilos.scss */
+.btn-social-icon {
+  margin-right: 5px;
+}
+
+/* line 114, ../scss/estilos.scss */
+.btn-twitter, .btn-linkedin, .btn-github, .btn-envelope {
+  background-color: #004859 !important;
+  color: white !important;
+}
+
+/* line 119, ../scss/estilos.scss */
+.btn-twitter:hover {
+  background-color: #2795E9 !important;
+}
+
+/* line 123, ../scss/estilos.scss */
+.btn-linkedin:hover {
+  background-color: #007BB6 !important;
+}
+
+/* line 127, ../scss/estilos.scss */
+.btn-github:hover {
+  background-color: #444444 !important;
 }

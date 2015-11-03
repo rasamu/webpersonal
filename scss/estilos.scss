@@ -1,5 +1,5 @@
 $azul_marino:#004859;
-$gris:#F5F5F5;
+$gris:#eeeeee;
 $turquesa:#009ea8;
 $blanco:#fff;
 
@@ -37,7 +37,7 @@ body{
 }
 
 a:hover{
-    color: $azul_marino;   
+    color: $azul_marino;
 }
 
 .img-responsive{
@@ -104,4 +104,26 @@ footer{
 
 header{
   border-bottom: 4px solid $turquesa;
+}
+
+/*SOCIAL ICONS*/
+.btn-social-icon{
+    margin-right: 5px;
+}
+
+.btn-twitter, .btn-linkedin, .btn-github, .btn-envelope{
+    background-color: $azul_marino!important;
+    color: $blanco!important;
+}
+
+.btn-twitter:hover{
+    background-color: #2795E9 !important;
+}
+
+.btn-linkedin:hover{
+    background-color: #007BB6 !important;
+}
+
+.btn-github:hover{
+    background-color: #444444 !important;
 }
