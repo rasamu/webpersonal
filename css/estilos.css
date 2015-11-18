@@ -1,150 +1,246 @@
-/* line 6, ../scss/estilos.scss */
+/* line 7, ../scss/estilos.scss */
 body {
-  padding-top: 50px;
-  font-family: 'Ubuntu',Helvetica,Arial,sans-serif !important;
-  background: #009ea8;
+  font-family: 'Raleway', sans-serif!important;
   color: #004859;
 }
 
-/* line 13, ../scss/estilos.scss */
+/* line 12, ../scss/estilos.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 16, ../scss/estilos.scss */
+#home {
+  background-attachment: fixed;
+  background-color: #004859;
+  background-image: url("../images/background.jpg");
+  background-repeat: repeat;
+  background-size: auto auto;
+  display: table;
+  height: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  vertical-align: middle;
+  width: 100%;
+  z-index: 1;
+}
+
+/* line 31, ../scss/estilos.scss */
+h1 {
+  font-size: 50px;
+  font-family: 'Architects Daughter', cursive;
+}
+
+/* line 36, ../scss/estilos.scss */
+.scrollToTop {
+  background: none repeat scroll 0 0 #004859;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  position: fixed;
+  display: inline;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  opacity: 0.4;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  z-index: 999999;
+}
+
+/* line 55, ../scss/estilos.scss */
+.background-wood {
+  background-image: url("../images/wood2.jpg");
+  background-attachment: fixed;
+  background-color: #009ea8;
+  color: white;
+  background-repeat: repeat;
+  background-size: auto auto;
+  display: table;
+  height: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  vertical-align: middle;
+  width: 100%;
+  z-index: 1;
+}
+
+/* line 71, ../scss/estilos.scss */
+#studies, #proyects {
+  background: url("../images/tile-graphpaper.jpg") repeat scroll 50% 0 rgba(0, 0, 0, 0);
+}
+
+/* line 75, ../scss/estilos.scss */
+.navbar-brand {
+  font-family: 'Architects Daughter', cursive;
+}
+
+/* line 79, ../scss/estilos.scss */
+.btn-custom {
+  border-color: #009ea8;
+  color: white;
+}
+
+/* line 84, ../scss/estilos.scss */
+.btn:hover, .btn:focus {
+  background-color: #009ea8;
+  color: white;
+  -webkit-transition: background-color 500ms linear;
+  -moz-transition: background-color 500ms linear;
+  -o-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
+}
+
+/* line 94, ../scss/estilos.scss */
+.home-content {
+  display: table-cell;
+  position: relative;
+  vertical-align: middle;
+  z-index: 3;
+}
+
+/* line 101, ../scss/estilos.scss */
 .navbar {
   background: #004859;
   color: white;
 }
 
-/* line 18, ../scss/estilos.scss */
+/* line 106, ../scss/estilos.scss */
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
   background: #009ea8;
 }
 
-/* line 22, ../scss/estilos.scss */
+/* line 110, ../scss/estilos.scss */
 .navbar-inverse .navbar-toggle {
   border-color: #009ea8;
 }
 
-/* line 26, ../scss/estilos.scss */
+/* line 114, ../scss/estilos.scss */
 .navbar-inverse .navbar-brand {
   color: white !important;
 }
 
-/* line 30, ../scss/estilos.scss */
+/* line 118, ../scss/estilos.scss */
 .navbar-nav > li > a.active:focus, .navbar-nav > li > a.active:hover {
   background: #009ea8;
   color: #004859 !important;
 }
 
-/* line 35, ../scss/estilos.scss */
+/* line 123, ../scss/estilos.scss */
 .navbar-brand {
   font-size: 22px;
 }
 
-/* line 39, ../scss/estilos.scss */
+/* line 127, ../scss/estilos.scss */
 a:hover {
   color: #004859;
 }
 
-/* line 43, ../scss/estilos.scss */
+/* line 131, ../scss/estilos.scss */
 .img-responsive {
-  max-height: 130px;
+  max-height: 120px;
   margin: 0 auto;
 }
 
-/* line 48, ../scss/estilos.scss */
+/* line 136, ../scss/estilos.scss */
 .img-thumbnail {
   border: 5px solid #009ea8;
   padding: 0;
 }
 
-/* line 53, ../scss/estilos.scss */
+/* line 141, ../scss/estilos.scss */
 .row {
   padding: 10px;
 }
 
-/* line 57, ../scss/estilos.scss */
-.selected {
-  background: #009ea8;
-  color: white !important;
-}
-
-/* line 62, ../scss/estilos.scss */
+/* line 145, ../scss/estilos.scss */
 .blanco {
   background: white;
 }
 
-/* line 66, ../scss/estilos.scss */
+/* line 149, ../scss/estilos.scss */
+.contact {
+  color: #004859;
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+/* line 155, ../scss/estilos.scss */
 .mark, mark {
   background: #009ea8;
   border-radius: 4px;
   color: #fff;
+  line-height: 1.8;
 }
 
-/* line 72, ../scss/estilos.scss */
+/* line 162, ../scss/estilos.scss */
 .azul_marino {
   background: #004859;
   color: white;
 }
 
-/* line 77, ../scss/estilos.scss */
-.gris {
-  background: #eeeeee;
+/*.gris{
+    background: $gris;
+}*/
+/* line 171, ../scss/estilos.scss */
+.gris_transparente {
+  background: rgba(238, 238, 238, 0.5);
 }
 
-/* line 82, ../scss/estilos.scss */
+/* line 175, ../scss/estilos.scss */
 .turquesa {
   background: #009ea8;
   color: white;
 }
 
-/* line 87, ../scss/estilos.scss */
+/* line 180, ../scss/estilos.scss */
 .color_turquesa {
   color: #009ea8;
 }
 
-/* line 91, ../scss/estilos.scss */
+/* line 184, ../scss/estilos.scss */
 .color_azul_marino {
   color: #004859;
 }
 
-/* line 95, ../scss/estilos.scss */
-.noview {
-  display: none;
-}
-
-/* line 99, ../scss/estilos.scss */
-footer {
-  background: #009ea8;
+/* line 188, ../scss/estilos.scss */
+.color_blanco {
   color: white;
-  border-top: 4px solid #004859;
 }
 
-/* line 105, ../scss/estilos.scss */
-header {
-  border-bottom: 4px solid #009ea8;
+/* line 192, ../scss/estilos.scss */
+footer {
+  background: #004859;
+  color: white;
 }
 
 /*SOCIAL ICONS*/
-/* line 110, ../scss/estilos.scss */
+/* line 198, ../scss/estilos.scss */
 .btn-social-icon {
   margin-right: 5px;
 }
 
-/* line 114, ../scss/estilos.scss */
+/* line 202, ../scss/estilos.scss */
 .btn-twitter, .btn-linkedin, .btn-github, .btn-envelope {
-  background-color: #004859 !important;
+  background-color: #009ea8 !important;
   color: white !important;
 }
 
-/* line 119, ../scss/estilos.scss */
+/* line 207, ../scss/estilos.scss */
 .btn-twitter:hover {
   background-color: #2795E9 !important;
 }
 
-/* line 123, ../scss/estilos.scss */
+/* line 211, ../scss/estilos.scss */
 .btn-linkedin:hover {
   background-color: #007BB6 !important;
 }
 
-/* line 127, ../scss/estilos.scss */
+/* line 215, ../scss/estilos.scss */
 .btn-github:hover {
   background-color: #444444 !important;
 }

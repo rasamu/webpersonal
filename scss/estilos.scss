@@ -1,13 +1,101 @@
 $azul_marino:#004859;
 $gris:#eeeeee;
+$gris_transparente: rgba(238,238,238,0.5);
 $turquesa:#009ea8;
 $blanco:#fff;
 
 body{
-  padding-top: 50px;
-  font-family: 'Ubuntu',Helvetica,Arial,sans-serif !important;
-  background: $turquesa;
-  color:$azul_marino;
+    font-family: 'Raleway', sans-serif!important;
+    color:$azul_marino;
+}
+
+html, body {
+    height: 100%;
+}
+
+#home{
+    background-attachment: fixed;
+    background-color: $azul_marino;
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat;
+    background-size: auto auto;
+    display: table;
+    height: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 100%;
+    z-index: 1;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.scrollToTop {
+    background: none repeat scroll 0 0 $azul_marino;
+    font-weight: bold;
+    font-size: 25px;
+    color: $blanco;
+    position: fixed;
+    display: inline;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    opacity: 0.4;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    z-index: 999999;
+}
+
+.background-wood{
+    background-image: url("../images/wood2.jpg");
+    background-attachment: fixed;
+    background-color: $turquesa;
+    color:$blanco;
+    background-repeat: repeat;
+    background-size: auto auto;
+    display: table;
+    height: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 100%;
+    z-index: 1;
+}
+
+#studies, #proyects{
+    background: url("../images/tile-graphpaper.jpg") repeat scroll 50% 0 rgba(0, 0, 0, 0);
+}
+
+.navbar-brand{
+    font-family: 'Architects Daughter', cursive;
+}
+
+.btn-custom{
+    border-color: $turquesa;
+    color: $blanco;
+}
+
+.btn:hover, .btn:focus{
+    background-color: $turquesa;
+    color: $blanco;
+    -webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.home-content {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    z-index: 3;
 }
 
 .navbar{
@@ -41,7 +129,7 @@ a:hover{
 }
 
 .img-responsive{
-    max-height: 130px;
+    max-height: 120px;
     margin: 0 auto;
 }
 
@@ -54,19 +142,21 @@ a:hover{
     padding: 10px;
 }
 
-.selected{
-    background: $turquesa;
-    color: $blanco!important;
-}
-
 .blanco{
     background: $blanco;
+}
+
+.contact{
+    color: $azul_marino;
+    font-size: 45px;
+    margin-bottom: 15px;
 }
 
 .mark, mark{
     background: $turquesa;
     border-radius: 4px;
     color: #fff;
+    line-height: 1.8;
 }
 
 .azul_marino{
@@ -74,9 +164,12 @@ a:hover{
   color: $blanco;
 }
 
-.gris{
+/*.gris{
     background: $gris;
-    //border-left: 5px solid $turquesa;
+}*/
+
+.gris_transparente{
+    background: $gris_transparente;
 }
 
 .turquesa{
@@ -92,18 +185,13 @@ a:hover{
     color: $azul_marino;
 }
 
-.noview{
-    display: none;
+.color_blanco{
+    color:$blanco;
 }
 
 footer{
-  background: $turquesa;
+  background: $azul_marino;
   color: $blanco;
-  border-top: 4px solid $azul_marino;
-}
-
-header{
-  border-bottom: 4px solid $turquesa;
 }
 
 /*SOCIAL ICONS*/
@@ -112,7 +200,7 @@ header{
 }
 
 .btn-twitter, .btn-linkedin, .btn-github, .btn-envelope{
-    background-color: $azul_marino!important;
+    background-color: $turquesa!important;
     color: $blanco!important;
 }
 
