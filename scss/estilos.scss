@@ -1,5 +1,4 @@
 $azul_marino:#004859;
-$gris:#eeeeee;
 $gris_transparente: rgba(238,238,238,0.5);
 $turquesa:#009ea8;
 $blanco:#fff;
@@ -37,7 +36,7 @@ h1{
     background: none repeat scroll 0 0 $azul_marino;
     font-weight: bold;
     font-size: 25px;
-    color: $blanco;
+    color: $blanco!important;
     position: fixed;
     display: inline;
     width: 45px;
@@ -52,8 +51,8 @@ h1{
     z-index: 999999;
 }
 
-.background-wood{
-    background-image: url("../images/wood2.jpg");
+.background-title{
+    background-image: url("../images/background-title.jpg");
     background-attachment: fixed;
     background-color: $turquesa;
     color:$blanco;
@@ -163,10 +162,6 @@ a:hover{
   background:$azul_marino;
   color: $blanco;
 }
-
-/*.gris{
-    background: $gris;
-}*/
 
 .gris_transparente{
     background: $gris_transparente;
