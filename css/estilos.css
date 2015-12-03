@@ -53,7 +53,7 @@ h1 {
 
 /* line 54, ../scss/estilos.scss */
 .background-title {
-  background-image: url("../images/wood.jpg");
+  background-image: url("../images/background-title.jpg");
   background-attachment: fixed;
   background-color: #009ea8;
   color: white;
